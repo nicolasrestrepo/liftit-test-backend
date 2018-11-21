@@ -1,0 +1,11 @@
+{
+    "name": "liftit-test-api",
+    "env": {
+        "MONGODB_URL": "@liftit_db",
+        "JWT_SECRET" : "@jwt_secret"
+    },
+    "features": {
+        "cloud": "v1"
+      },
+    "type": "docker"
+}
